@@ -1,0 +1,440 @@
+/* ============================================
+   NAVBAR - FLOU MAXIMAL + RESPONSIVE
+   ============================================ */
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: rgba(255, 255, 255, 0.021);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0.75rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: relative;
+  z-index: 1;
+}
+
+/* Logo + burger */
+.logoBurger {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.burgerIcon {
+  display: none;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: var(--ink-black);
+  padding: 0.5rem;
+  border-radius: 8px;
+  transition: background 0.2s;
+}
+
+.burgerIcon:hover {
+  background: rgba(0,0,0,0.05);
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: var(--ink-black);
+  text-decoration: none;
+  letter-spacing: -0.02em;
+}
+
+.logo:hover {
+  color: var(--electric-sapphire);
+}
+
+/* Navigation wrapper (pour la sidebar mobile) */
+.navWrapper {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+/* Liens principaux */
+.navLinks {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.navLinks a {
+  color: var(--ink-black);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 0.5rem 0;
+  position: relative;
+}
+
+.navLinks a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: var(--electric-sapphire);
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.3s ease;
+}
+
+.navLinks a:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+/* Dropdown Produits */
+.dropdown {
+  position: relative;
+}
+
+.dropdownTrigger {
+  background: transparent;
+  border: none;
+  font-weight: 600;
+  font-size: 1rem;
+  color: var(--ink-black);
+  cursor: pointer;
+  padding: 0.5rem 0;
+  font-family: inherit;
+}
+
+.dropdownTrigger:hover {
+  color: var(--electric-sapphire);
+}
+
+.dropdownMenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: white;
+  backdrop-filter: blur(10px);
+  background: rgba(255,255,255,0.95);
+  border-radius: 1rem;
+  box-shadow: 0 10px 25px -5px rgba(0,0,0,0.1);
+  min-width: 160px;
+  padding: 0.5rem 0;
+  list-style: none;
+  margin: 0;
+  z-index: 102;
+  animation: fadeIn 0.2s ease;
+}
+
+.dropdownMenu li a {
+  display: block;
+  padding: 0.6rem 1.2rem;
+  color: var(--ink-black);
+  text-decoration: none;
+  transition: background 0.2s;
+}
+
+.dropdownMenu li a:hover {
+  background: rgba(67, 97, 238, 0.1);
+  color: var(--electric-sapphire);
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Boutons auth + panier */
+.authButtons {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.authLinks {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.loginBtn, .registerBtn {
+  padding: 0.5rem 1.2rem;
+  border-radius: 40px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  font-size: 0.95rem;
+  background: transparent;
+  border: 1.5px solid var(--ink-black);
+  color: var(--ink-black);
+}
+
+.loginBtn:hover, .registerBtn:hover {
+  background: var(--ink-black);
+  color: var(--ivory);
+}
+
+.registerBtn {
+  background: var(--electric-sapphire);
+  border-color: var(--electric-sapphire);
+  color: white;
+}
+
+.registerBtn:hover {
+  background: #2a4fd0;
+  border-color: #2a4fd0;
+}
+
+/* Panier */
+.cartIconContainer {
+  position: relative;
+}
+
+.cartLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(4px);
+  color: var(--ink-black);
+  transition: all 0.2s;
+  border: 1.5px solid transparent;
+}
+
+.cartLink:hover {
+  background: rgba(255, 255, 255, 0.4);
+  border-color: var(--electric-sapphire);
+  color: var(--electric-sapphire);
+}
+
+.cartBadge {
+  position: absolute;
+  top: -4px;
+  right: -4px;
+  background: var(--vibrant-coral);
+  color: white;
+  font-size: 0.7rem;
+  font-weight: 700;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 6px rgba(239, 91, 91, 0.3);
+}
+
+/* Avatar utilisateur */
+.userMenuContainer {
+  position: relative;
+}
+
+.userAvatar {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.8) 0%, rgba(248, 250, 252, 0.6) 100%);
+  backdrop-filter: blur(10px);
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid rgba(59, 130, 246, 0.3);
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.userAvatar:hover {
+  border-color: #3b82f6;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(59, 130, 246, 0.2);
+}
+
+.avatarImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.userDropdown {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  margin-top: 1rem;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.98) 0%, rgba(248, 250, 252, 0.96) 100%);
+  backdrop-filter: blur(20px);
+  border-radius: 1.5rem;
+  box-shadow: 0 20px 60px rgba(15, 20, 25, 0.15);
+  min-width: 280px;
+  padding: 0;
+  z-index: 101;
+  overflow: hidden;
+  animation: slideDown 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@keyframes slideDown {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.dropdownName {
+  padding: 1.2rem 1.5rem;
+  font-weight: 700;
+  font-size: 1.05rem;
+  color: #0f1419;
+  background: linear-gradient(135deg, rgba(59, 130, 246, 0.1) 0%, rgba(219, 234, 254, 0.06) 100%);
+  border-bottom: 1px solid rgba(59, 130, 246, 0.15);
+  text-align: center;
+}
+
+.dropdownLink, .dropdownLogout {
+  padding: 0.9rem 1.5rem;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: all 0.2s;
+  color: #0f1419;
+  background: transparent;
+  border: none;
+  text-align: left;
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.dropdownLink:hover, .dropdownLogout:hover {
+  background: rgba(59, 130, 246, 0.12);
+  color: #3b82f6;
+  transform: translateX(4px);
+}
+
+.dropdownLogout:hover {
+  background: rgba(239, 68, 68, 0.12);
+  color: #ef4444;
+}
+
+/* ========== RESPONSIVE MOBILE ========== */
+@media (max-width: 768px) {
+  .burgerIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 200;
+  }
+
+  .navWrapper {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 80%;
+    max-width: 300px;
+    height: 100vh;
+    background: rgba(255, 255, 255, 0.98);
+    backdrop-filter: blur(20px);
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 5rem 1.5rem 2rem;
+    transition: left 0.3s ease;
+    box-shadow: 2px 0 20px rgba(0,0,0,0.1);
+    z-index: 150;
+    gap: 2rem;
+  }
+
+  .navWrapper.mobileOpen {
+    left: 0;
+  }
+
+  .navLinks {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+    width: 100%;
+  }
+
+  .dropdown {
+    width: 100%;
+  }
+
+  .dropdownTrigger {
+    width: 100%;
+    text-align: left;
+    padding: 0.5rem 0;
+  }
+
+  .dropdownMenu {
+    position: static;
+    box-shadow: none;
+    background: transparent;
+    padding-left: 1rem;
+    margin-top: 0.5rem;
+    width: 100%;
+  }
+
+  .dropdownMenu li a {
+    padding: 0.5rem 0;
+  }
+
+  .authButtons {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    gap: 1rem;
+  }
+
+  .authLinks {
+    flex-direction: column;
+    width: 100%;
+    gap: 0.8rem;
+  }
+
+  .loginBtn, .registerBtn {
+    text-align: center;
+    display: block;
+  }
+
+  .cartIconContainer {
+    margin-left: 0;
+  }
+
+  .userMenuContainer {
+    width: 100%;
+  }
+
+  .userAvatar {
+    margin-left: 0;
+  }
+
+  .userDropdown {
+    position: relative;
+    top: auto;
+    right: auto;
+    margin-top: 0.5rem;
+    width: 100%;
+  }
+
+  /* Ajustement du container pour éviter le débordement */
+  .container {
+    padding: 0.75rem 1rem;
+  }
+}

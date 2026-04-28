@@ -1,0 +1,432 @@
+/* ============================================
+   HOME PAGE – UI/UX PROFESSIONNEL + VIDÉO EN ARRIÈRE-PLAN
+   Palette : Ink Black, Ivory, Electric Sapphire, Vibrant Coral
+   ============================================ */
+
+.homePage {
+  position: relative;
+  min-height: 100vh;
+}
+
+/* --- CONTENEUR PRINCIPAL (passe AU-DESSUS de la vidéo) --- */
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 2rem 1.5rem 5rem;
+  position: relative;
+  z-index: 10;
+}
+.homePage2 {
+  position: relative;
+  z-index: 10;
+  background-color: var(--ink-black);
+  text-align: center;
+  padding-top: 50px;
+  h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--electric-sapphire);
+    letter-spacing: -0.02em;
+    margin-bottom: 0.5rem;
+  }
+  p {
+    color: whitesmoke;
+    opacity: 0.6;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+  }
+}
+/* ---------- HERO ---------- */
+.hero {
+  text-align: center;
+  padding: 3rem 0 2rem;
+  animation: fadeInUp 0.6s ease-out;
+  position: relative;
+  z-index: 10;
+}
+
+.heroContent {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.heroTitle {
+  font-size: clamp(3rem, 8vw, 5rem);
+  font-weight: 800;
+  line-height: 1.1;
+  letter-spacing: -0.03em;
+  margin-bottom: 1.5rem;
+}
+
+.gradient {
+  background: linear-gradient(135deg, var(--ink-black) 0%, var(--electric-sapphire) 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.heroSubtitle {
+  font-size: clamp(1.2rem, 3vw, 1.8rem);
+  font-weight: 500;
+  color: var(--ink-black);
+  margin-bottom: 1rem;
+  opacity: 0.9;
+}
+
+.heroDescription {
+  font-size: 1.1rem;
+  color: var(--ink-black);
+  opacity: 0.7;
+  max-width: 600px;
+  margin: 0 auto 2rem;
+}
+
+.ctaButton {
+  display: inline-block;
+  background: var(--electric-sapphire);
+  color: white;
+  font-weight: 600;
+  padding: 0.9rem 2.5rem;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 10px 20px -5px rgba(67, 97, 238, 0.3);
+  border: none;
+  cursor: pointer;
+}
+
+.ctaButton:hover {
+  background: var(--ink-black);
+  transform: translateY(-3px);
+  box-shadow: 0 15px 25px -5px rgba(13, 19, 33, 0.3);
+}
+
+/* ---------- CATÉGORIES ---------- */
+.categories {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin: 4rem 0 5rem;
+  position: relative;
+  z-index: 10;
+}
+
+.categoryCard {
+  position: relative;
+  border-radius: 2rem;
+  overflow: hidden;
+  text-decoration: none;
+  box-shadow: 0 25px 35px -10px rgba(0, 0, 0, 0.1);
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.categoryCard:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 35px 45px -12px rgba(0, 0, 0, 0.2);
+}
+
+.categoryImage {
+  width: 100%;
+  height: 450px;
+}
+
+.categoryImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.6s ease;
+}
+
+.categoryCard:hover .categoryImage img {
+  transform: scale(1.05);
+}
+
+.categoryOverlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 2.5rem 2rem;
+  background: linear-gradient(to top, rgba(13, 19, 33, 0.85) 0%, transparent 100%);
+  color: white;
+}
+
+.categoryOverlay h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  letter-spacing: -0.02em;
+}
+
+.categoryLink {
+  font-size: 1.1rem;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: gap 0.3s;
+}
+
+.categoryCard:hover .categoryLink {
+  gap: 1rem;
+}
+
+/* ---------- BANNIÈRES PLEINE LARGEUR ---------- */
+.fullWidthBanner {
+  position: relative;
+  width: 100vw;
+  z-index: 100;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  height: 60vh;
+  min-height: 400px;
+  margin-top: 2rem;
+}
+
+.bannerImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.bannerTextLeft,
+.bannerTextRight {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  z-index: 2;
+  padding: 0 2rem;
+}
+
+.bannerTextLeft {
+  left: 5%;
+  text-align: left;
+}
+
+.bannerTextRight {
+  right: 5%;
+  text-align: right;
+}
+
+.bannerTextLeft h2,
+.bannerTextRight h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.bannerTextLeft p,
+.bannerTextRight p {
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
+
+/* ---------- PRODUITS VEDETTES ---------- */
+.featured {
+  position: relative;
+  z-index: 10;
+}
+
+.sectionHeader {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.sectionTitle {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--electric-sapphire);
+  letter-spacing: -0.02em;
+  margin-bottom: 0.5rem;
+}
+
+.sectionSubtitle {
+  color: var(--ink-black);
+  opacity: 0.6;
+  font-size: 1.1rem;
+}
+
+.productGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+
+.productCard {
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(4px);
+  border-radius: 1.5rem;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.3s ease;
+  box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.productCard:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 25px 30px -10px rgba(0, 0, 0, 0.1);
+  background: rgba(255, 255, 255, 0.7);
+  border-color: white;
+}
+
+.productImage {
+  position: relative;
+  aspect-ratio: 3/4;
+  overflow: hidden;
+}
+
+.productImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s;
+}
+
+.productCard:hover .productImage img {
+  transform: scale(1.08);
+}
+
+.discountBadge {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  background: var(--vibrant-coral);
+  color: white;
+  font-weight: 700;
+  font-size: 0.9rem;
+  padding: 0.3rem 0.8rem;
+  border-radius: 30px;
+  box-shadow: 0 5px 10px rgba(239, 91, 91, 0.2);
+  z-index: 2;
+}
+
+.productInfo {
+  padding: 1.5rem 1.2rem;
+}
+
+.productName {
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  color: var(--ink-black);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.productPrice {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.oldPrice {
+  text-decoration: line-through;
+  color: #6b7280;
+  font-size: 0.9rem;
+}
+
+.newPrice,
+.price {
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: var(--electric-sapphire);
+}
+
+/* ---------- LOADER ---------- */
+.loading {
+  text-align: center;
+  padding: 4rem;
+  color: var(--ink-black);
+  opacity: 0.7;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.loader {
+  width: 24px;
+  height: 24px;
+  border: 3px solid rgba(67, 97, 238, 0.2);
+  border-radius: 50%;
+  border-top-color: var(--electric-sapphire);
+  animation: spin 0.8s linear infinite;
+}
+
+/* ---------- ANIMATIONS ---------- */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* ---------- RESPONSIVE ---------- */
+@media (max-width: 1024px) {
+  .productGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .categoryImage {
+    height: 380px;
+  }
+}
+
+@media (max-width: 768px) {
+  .categories {
+    grid-template-columns: 1fr;
+  }
+  .hero {
+    padding: 2rem 0 1rem;
+  }
+  .sectionTitle {
+    font-size: 2rem;
+  }
+  .fullWidthBanner {
+    height: 50vh;
+    min-height: 300px;
+  }
+  .bannerTextLeft h2,
+  .bannerTextRight h2 {
+    font-size: 1.3rem;
+  }
+  .bannerTextLeft p,
+  .bannerTextRight p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 1rem 1rem 3rem;
+  }
+  .productGrid {
+    grid-template-columns: 1fr;
+  }
+  .categoryImage {
+    height: 300px;
+  }
+  .categoryOverlay h2 {
+    font-size: 2rem;
+  }
+}

@@ -1,0 +1,106 @@
+.container {
+  max-width: 1280px;
+  margin: 2rem auto;
+  padding: 0 1.5rem;
+}
+.container h1 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #0f172a;
+}
+.checkoutLayout {
+  display: grid;
+  grid-template-columns: 1fr 380px;
+  gap: 2rem;
+}
+.formSection {
+  background: white;
+  border-radius: 24px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+.formSection h2, .summary h2 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+.formGroup {
+  margin-bottom: 1rem;
+}
+.formGroup label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 0.3rem;
+}
+.formGroup input {
+  width: 100%;
+  padding: 0.6rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+}
+.formRow {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+.submitBtn {
+  background: #3b82f6;
+  color: white;
+  border: none;
+  padding: 0.8rem;
+  border-radius: 40px;
+  font-weight: 600;
+  width: 100%;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+.submitBtn:hover {
+  background: #2563eb;
+}
+.summary {
+  background: #f8fafc;
+  border-radius: 24px;
+  padding: 1.5rem;
+  position: sticky;
+  top: 100px;
+  height: fit-content;
+}
+.itemsList {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1rem;
+}
+.item {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #e2e8f0;
+  font-size: 0.9rem;
+}
+.total {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 2px solid #3b82f6;
+}
+.empty, .loading {
+  text-align: center;
+  padding: 4rem;
+}
+.shopBtn {
+  background: #3b82f6;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 40px;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+@media (max-width: 768px) {
+  .checkoutLayout {
+    grid-template-columns: 1fr;
+  }
+}

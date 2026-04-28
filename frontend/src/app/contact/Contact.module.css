@@ -1,0 +1,39 @@
+.container { max-width: 1100px; margin: 3rem auto; padding: 0 1.5rem; }
+.hero { text-align: center; margin-bottom: 3rem; }
+.title { font-size: 3rem; color: var(--ink-black); margin-bottom: 1rem; }
+.subtitle { font-size: 1.2rem; color: #64748b; }
+
+.content { display: grid; grid-template-columns: 1fr 1.5fr; gap: 2rem; }
+
+.infoCard, .formCard {
+  background: rgba(255,255,255,0.6); backdrop-filter: blur(8px);
+  border-radius: 2rem; padding: 2rem;
+  box-shadow: 0 20px 40px -10px rgba(0,0,0,0.05);
+}
+.infoCard h2 { color: var(--ink-black); margin-bottom: 2rem; }
+.infoItem { display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem; color: #475569; }
+.infoItem span { font-size: 1.5rem; }
+
+.form { display: flex; flex-direction: column; gap: 1.5rem; }
+.field { display: flex; flex-direction: column; gap: 0.5rem; }
+.field label { font-weight: 500; color: var(--ink-black); }
+.field input, .field textarea {
+  padding: 0.75rem 1rem; border: 1.5px solid #e2e8f0; border-radius: 1rem;
+  font-size: 1rem; font-family: inherit; resize: vertical;
+}
+.field input:focus, .field textarea:focus { outline: none; border-color: var(--electric-sapphire); }
+.submitBtn {
+  background: var(--electric-sapphire); color: white; border: none;
+  padding: 0.8rem 1.5rem; border-radius: 2rem; font-weight: 600; cursor: pointer;
+  transition: background 0.2s;
+}
+.submitBtn:hover { background: #2a4fd0; }
+
+.successMessage { text-align: center; padding: 2rem 0; }
+.successMessage span { font-size: 3rem; }
+.successMessage h3 { color: var(--ink-black); margin: 1rem 0 0.5rem; }
+
+@media (max-width: 700px) {
+  .content { grid-template-columns: 1fr; }
+  .title { font-size: 2.5rem; }
+}

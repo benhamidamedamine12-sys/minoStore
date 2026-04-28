@@ -1,0 +1,146 @@
+.container { max-width: 1280px; margin: 2rem auto; padding: 0 1.5rem; }
+.header { margin-bottom: 2rem; }
+.header h1 { font-size: 2.5rem; color: var(--ink-black); margin-bottom: 0.5rem; }
+.header p { color: #64748b; }
+
+.tabs { display: flex; gap: 1rem; border-bottom: 1px solid #e2e8f0; margin-bottom: 2rem; }
+.tab { padding: 0.75rem 1.5rem; background: none; border: none; font-weight: 600; color: #64748b; cursor: pointer; border-radius: 2rem 2rem 0 0; }
+.tab:hover { color: var(--ink-black); }
+.tab.active { color: var(--electric-sapphire); border-bottom: 3px solid var(--electric-sapphire); }
+
+.statsGrid { display: grid; grid-template-columns: repeat(3,1fr); gap: 2rem; margin-bottom: 2rem; }
+.statCard { background: white; border-radius: 1.5rem; padding: 2rem; text-align: center; box-shadow: 0 10px 25px -5px rgba(0,0,0,0.05); border: 1px solid rgba(0,0,0,0.02); }
+.statIcon { font-size: 2.5rem; }
+.statValue { font-size: 2.5rem; font-weight: 700; color: var(--ink-black); margin: 0.5rem 0; }
+.statLabel { color: #64748b; font-weight: 500; }
+
+.tableWrapper { background: white; border-radius: 1.5rem; padding: 1rem; box-shadow: 0 10px 25px -5px rgba(0,0,0,0.05); overflow-x: auto; }
+.table { width: 100%; border-collapse: collapse; }
+.table th { text-align: left; padding: 1rem; color: #64748b; font-weight: 500; border-bottom: 1px solid #e2e8f0; }
+.table td { padding: 1rem; border-bottom: 1px solid #e2e8f0; color: var(--ink-black); }
+.roleBadge { padding: 0.2rem 0.8rem; border-radius: 2rem; font-size: 0.8rem; font-weight: 600; background: #e2e8f0; color: #475569; }
+.roleBadge.admin { background: var(--electric-sapphire); color: white; }
+.statusBadge { padding: 0.2rem 0.8rem; border-radius: 2rem; font-size: 0.8rem; font-weight: 600; }
+.statusBadge.active { background: #dcfce7; color: #16a34a; }
+.statusBadge.inactive { background: #fee2e2; color: #dc2626; }
+.actionBtn { background: none; border: none; cursor: pointer; font-size: 1.2rem; }
+
+.placeholder { background: white; border-radius: 1.5rem; padding: 3rem; text-align: center; color: #64748b; }
+
+@media (max-width: 700px) {
+  .statsGrid { grid-template-columns: 1fr; }
+}
+/* Product header */
+.productHeader {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 1.5rem;
+}
+.addProductBtn {
+  background: var(--electric-sapphire);
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 2rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.addProductBtn:hover {
+  background: #2a4fd0;
+}
+
+/* Modal */
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+.modal {
+  background: white;
+  border-radius: 2rem;
+  padding: 2rem;
+  width: 90%;
+  max-width: 800px;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+.modal h2 {
+  margin-bottom: 1.5rem;
+}
+.productForm {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+.formGroup label {
+  font-weight: 600;
+}
+.formGroup input, .formGroup textarea, .formGroup select {
+  padding: 0.5rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 0.5rem;
+}
+.formRow {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+.sizeRow, .arrayRow {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.sizeRow input, .arrayRow input {
+  flex: 1;
+}
+.addBtn {
+  background: #e2e8f0;
+  border: none;
+  padding: 0.3rem 0.6rem;
+  border-radius: 2rem;
+  cursor: pointer;
+  font-size: 0.8rem;
+  width: fit-content;
+}
+.modalActions {
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-end;
+  margin-top: 1rem;
+}
+.submitBtn {
+  background: #3b82f6;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+.cancelBtn {
+  background: #e2e8f0;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+@media (max-width: 640px) {
+  .formRow {
+    grid-template-columns: 1fr;
+  }
+  .modal {
+    padding: 1rem;
+  }
+}

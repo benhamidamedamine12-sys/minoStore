@@ -1,0 +1,20 @@
+.container { max-width: 1000px; margin: 3rem auto; padding: 0 1.5rem; }
+.hero { text-align: center; margin-bottom: 3rem; }
+.title { font-size: 3rem; color: var(--ink-black); margin-bottom: 1rem; }
+.subtitle { font-size: 1.2rem; color: #64748b; }
+
+.content { background: rgba(255,255,255,0.6); backdrop-filter: blur(8px); border-radius: 2rem; padding: 2.5rem; box-shadow: 0 20px 40px -10px rgba(0,0,0,0.05); }
+.section { margin-bottom: 2.5rem; }
+.section h2 { color: var(--ink-black); margin-bottom: 1rem; font-size: 1.8rem; }
+.section p { color: #475569; line-height: 1.7; }
+
+.values { display: grid; grid-template-columns: repeat(3,1fr); gap: 2rem; margin-top: 3rem; }
+.valueCard { text-align: center; padding: 1.5rem; background: white; border-radius: 1.5rem; box-shadow: 0 5px 15px rgba(0,0,0,0.02); }
+.icon { font-size: 2.5rem; display: block; margin-bottom: 1rem; }
+.valueCard h3 { color: var(--ink-black); margin-bottom: 0.5rem; }
+.valueCard p { color: #64748b; font-size: 0.95rem; }
+
+@media (max-width: 600px) {
+  .values { grid-template-columns: 1fr; }
+  .title { font-size: 2.5rem; }
+}

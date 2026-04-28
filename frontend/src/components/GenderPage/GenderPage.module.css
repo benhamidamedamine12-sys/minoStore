@@ -1,0 +1,93 @@
+.container { max-width: 1280px; margin: 2rem auto; padding: 0 1.5rem; }
+.header { text-align: center; margin-bottom: 2.5rem; }
+.title { font-size: 2.5rem; font-weight: 700; color: #1e293b; margin-bottom: 0.5rem; }
+.subtitle { color: #64748b; font-size: 1.1rem; }
+.filterBar { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; margin-bottom: 2rem; padding-bottom: 1rem; border-bottom: 1px solid #e2e8f0; }
+.filterGroup { display: flex; gap: 1rem; flex-wrap: wrap; }
+.select { padding: 0.6rem 2rem 0.6rem 1rem; border: 1.5px solid #e2e8f0; border-radius: 12px; background-color: white; font-size: 0.95rem; color: #334155; cursor: pointer; appearance: none; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23475569' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 0.75rem center; background-size: 1rem; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 2rem 1.5rem; }
+.card { text-decoration: none; color: inherit; transition: transform 0.2s, box-shadow 0.2s; border-radius: 16px; overflow: hidden; background: white; }
+.card:hover { transform: translateY(-4px); box-shadow: 0 12px 20px -8px rgba(0,0,0,0.15); }
+.imageWrapper { position: relative; aspect-ratio: 3 / 4; overflow: hidden; border-radius: 16px; background: #f1f5f9; }
+.image { width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s; }
+.card:hover .image { transform: scale(1.05); }
+.discountBadge { position: absolute; top: 10px; left: 10px; background: #ef4444; color: white; font-weight: 600; font-size: 0.8rem; padding: 0.25rem 0.75rem; border-radius: 20px; }
+.cardContent { padding: 1rem 0.25rem; }
+.productName { font-size: 1rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem; }
+.priceContainer { display: flex; align-items: center; gap: 0.5rem; }
+.price { font-weight: 700; color: #3b82f6; font-size: 1.1rem; }
+.originalPrice { text-decoration: line-through; color: #94a3b8; font-size: 0.9rem; }
+.discountPrice { font-weight: 700; color: #ef4444; font-size: 1.1rem; }
+.loading, .empty { text-align: center; padding: 4rem 2rem; color: #64748b; }
+/* Nouveaux styles pour les actions panier */
+.cardLink {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+.cardActions {
+  padding: 0.75rem 1rem 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  border-top: 1px solid #e2e8f0;
+  background: white;
+}
+.sizeSelect {
+  flex: 1;
+  padding: 0.4rem 0.5rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  font-size: 0.8rem;
+  background: white;
+}
+.quantityControl {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  background: #f1f5f9;
+  border-radius: 8px;
+  padding: 0.2rem 0.4rem;
+}
+.quantityControl button {
+  background: transparent;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  width: 28px;
+  height: 28px;
+  border-radius: 6px;
+  transition: background 0.2s;
+}
+.quantityControl button:hover:not(:disabled) {
+  background: #3b82f6;
+  color: white;
+}
+.quantityControl button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+.cartBtn {
+  flex: 2;
+  background: #3b82f6;
+  color: white;
+  border: none;
+  padding: 0.4rem 0.8rem;
+  border-radius: 40px;
+  font-weight: 600;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.cartBtn:hover {
+  background: #2563eb;
+}
+@media (max-width: 640px) {
+  .cardActions {
+    flex-direction: column;
+  }
+  .sizeSelect, .cartBtn {
+    width: 100%;
+  }
+}

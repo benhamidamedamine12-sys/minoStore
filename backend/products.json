@@ -1,0 +1,5493 @@
+[
+  {
+    "name": "T-shirt basique homme 1",
+    "description": "T-shirt basique homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 76,
+    "category": "t-shirt",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Chemise casual homme 2",
+    "description": "Chemise casual homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 74,
+    "category": "chemise",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Pantalon chino homme 3",
+    "description": "Pantalon chino homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 143,
+    "discountPrice": 114,
+    "category": "pantalon",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [
+      "promotion"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Jean slim homme 4",
+    "description": "Jean slim homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 44,
+    "discountPrice": 35,
+    "category": "jean",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [
+      "promotion"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Veste légère homme 5",
+    "description": "Veste légère homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 127,
+    "category": "veste",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Manteau long homme 6",
+    "description": "Manteau long homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 84,
+    "discountPrice": 67,
+    "category": "manteau",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1539533113208-f6df8cc8b543?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [
+      "promotion"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Pull col rond homme 7",
+    "description": "Pull col rond homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 57,
+    "category": "pull",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Sweat à capuche homme 8",
+    "description": "Sweat à capuche homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 76,
+    "category": "sweat",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Baskets homme 9",
+    "description": "Baskets homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 83,
+    "category": "chaussures",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "42",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Ceinture cuir homme 10",
+    "description": "Ceinture cuir homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 34,
+    "discountPrice": 27,
+    "category": "accessoires",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1576871337622-98d48d1cf531?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [
+      "promotion"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "T-shirt basique homme 11",
+    "description": "T-shirt basique homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 129,
+    "category": "t-shirt",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Chemise casual homme 12",
+    "description": "Chemise casual homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 112,
+    "category": "chemise",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Pantalon chino homme 13",
+    "description": "Pantalon chino homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 73,
+    "category": "pantalon",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Jean slim homme 14",
+    "description": "Jean slim homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 47,
+    "discountPrice": 37,
+    "category": "jean",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [
+      "promotion"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Veste légère homme 15",
+    "description": "Veste légère homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 123,
+    "category": "veste",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Manteau long homme 16",
+    "description": "Manteau long homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 145,
+    "discountPrice": 116,
+    "category": "manteau",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1539533113208-f6df8cc8b543?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [
+      "promotion"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Pull col rond homme 17",
+    "description": "Pull col rond homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 108,
+    "category": "pull",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Sweat à capuche homme 18",
+    "description": "Sweat à capuche homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 113,
+    "discountPrice": 90,
+    "category": "sweat",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [
+      "promotion"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Baskets homme 19",
+    "description": "Baskets homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 74,
+    "discountPrice": 59,
+    "category": "chaussures",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "42",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [
+      "promotion"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Ceinture cuir homme 20",
+    "description": "Ceinture cuir homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 31,
+    "discountPrice": 24,
+    "category": "accessoires",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1576871337622-98d48d1cf531?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [
+      "promotion"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "T-shirt basique homme 21",
+    "description": "T-shirt basique homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 96,
+    "category": "t-shirt",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Chemise casual homme 22",
+    "description": "Chemise casual homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 41,
+    "category": "chemise",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Pantalon chino homme 23",
+    "description": "Pantalon chino homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 107,
+    "category": "pantalon",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Jean slim homme 24",
+    "description": "Jean slim homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 53,
+    "category": "jean",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Veste légère homme 25",
+    "description": "Veste légère homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 36,
+    "category": "veste",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Manteau long homme 26",
+    "description": "Manteau long homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 113,
+    "category": "manteau",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1539533113208-f6df8cc8b543?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Pull col rond homme 27",
+    "description": "Pull col rond homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 53,
+    "discountPrice": 42,
+    "category": "pull",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [
+      "promotion"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Sweat à capuche homme 28",
+    "description": "Sweat à capuche homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 107,
+    "category": "sweat",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Baskets homme 29",
+    "description": "Baskets homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 98,
+    "discountPrice": 78,
+    "category": "chaussures",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "42",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [
+      "promotion"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Ceinture cuir homme 30",
+    "description": "Ceinture cuir homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 117,
+    "category": "accessoires",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1576871337622-98d48d1cf531?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "T-shirt basique homme 31",
+    "description": "T-shirt basique homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 117,
+    "category": "t-shirt",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Chemise casual homme 32",
+    "description": "Chemise casual homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 124,
+    "category": "chemise",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Pantalon chino homme 33",
+    "description": "Pantalon chino homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 55,
+    "discountPrice": 44,
+    "category": "pantalon",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [
+      "promotion"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Jean slim homme 34",
+    "description": "Jean slim homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 30,
+    "discountPrice": 24,
+    "category": "jean",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [
+      "promotion"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Veste légère homme 35",
+    "description": "Veste légère homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 83,
+    "category": "veste",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Manteau long homme 36",
+    "description": "Manteau long homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 144,
+    "category": "manteau",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1539533113208-f6df8cc8b543?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Pull col rond homme 37",
+    "description": "Pull col rond homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 54,
+    "discountPrice": 43,
+    "category": "pull",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [
+      "promotion"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Sweat à capuche homme 38",
+    "description": "Sweat à capuche homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 47,
+    "category": "sweat",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Baskets homme 39",
+    "description": "Baskets homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 49,
+    "category": "chaussures",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "42",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Ceinture cuir homme 40",
+    "description": "Ceinture cuir homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 134,
+    "discountPrice": 107,
+    "category": "accessoires",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1576871337622-98d48d1cf531?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [
+      "promotion"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "T-shirt basique homme 41",
+    "description": "T-shirt basique homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 142,
+    "category": "t-shirt",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Chemise casual homme 42",
+    "description": "Chemise casual homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 106,
+    "discountPrice": 84,
+    "category": "chemise",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [
+      "promotion"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Pantalon chino homme 43",
+    "description": "Pantalon chino homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 62,
+    "category": "pantalon",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Jean slim homme 44",
+    "description": "Jean slim homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 104,
+    "category": "jean",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Veste légère homme 45",
+    "description": "Veste légère homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 97,
+    "category": "veste",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Manteau long homme 46",
+    "description": "Manteau long homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 147,
+    "category": "manteau",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1539533113208-f6df8cc8b543?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Pull col rond homme 47",
+    "description": "Pull col rond homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 145,
+    "category": "pull",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Sweat à capuche homme 48",
+    "description": "Sweat à capuche homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 117,
+    "discountPrice": 93,
+    "category": "sweat",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [
+      "promotion"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Baskets homme 49",
+    "description": "Baskets homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 101,
+    "discountPrice": 80,
+    "category": "chaussures",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "42",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [
+      "promotion"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Ceinture cuir homme 50",
+    "description": "Ceinture cuir homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 106,
+    "category": "accessoires",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1576871337622-98d48d1cf531?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "T-shirt basique homme 51",
+    "description": "T-shirt basique homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 87,
+    "category": "t-shirt",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Chemise casual homme 52",
+    "description": "Chemise casual homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 84,
+    "category": "chemise",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Pantalon chino homme 53",
+    "description": "Pantalon chino homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 130,
+    "category": "pantalon",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Jean slim homme 54",
+    "description": "Jean slim homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 111,
+    "category": "jean",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Veste légère homme 55",
+    "description": "Veste légère homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 71,
+    "discountPrice": 56,
+    "category": "veste",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [
+      "promotion"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Manteau long homme 56",
+    "description": "Manteau long homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 30,
+    "discountPrice": 24,
+    "category": "manteau",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1539533113208-f6df8cc8b543?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [
+      "promotion"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Pull col rond homme 57",
+    "description": "Pull col rond homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 59,
+    "category": "pull",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Sweat à capuche homme 58",
+    "description": "Sweat à capuche homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 56,
+    "category": "sweat",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Baskets homme 59",
+    "description": "Baskets homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 32,
+    "category": "chaussures",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "42",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Ceinture cuir homme 60",
+    "description": "Ceinture cuir homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 60,
+    "category": "accessoires",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1576871337622-98d48d1cf531?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "T-shirt basique homme 61",
+    "description": "T-shirt basique homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 95,
+    "category": "t-shirt",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Chemise casual homme 62",
+    "description": "Chemise casual homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 138,
+    "category": "chemise",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Pantalon chino homme 63",
+    "description": "Pantalon chino homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 142,
+    "category": "pantalon",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Jean slim homme 64",
+    "description": "Jean slim homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 95,
+    "discountPrice": 76,
+    "category": "jean",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [
+      "promotion"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Veste légère homme 65",
+    "description": "Veste légère homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 125,
+    "category": "veste",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Manteau long homme 66",
+    "description": "Manteau long homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 139,
+    "discountPrice": 111,
+    "category": "manteau",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1539533113208-f6df8cc8b543?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [
+      "promotion"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Pull col rond homme 67",
+    "description": "Pull col rond homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 43,
+    "category": "pull",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Sweat à capuche homme 68",
+    "description": "Sweat à capuche homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 83,
+    "category": "sweat",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Baskets homme 69",
+    "description": "Baskets homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 66,
+    "discountPrice": 52,
+    "category": "chaussures",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "42",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [
+      "promotion"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Ceinture cuir homme 70",
+    "description": "Ceinture cuir homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 84,
+    "category": "accessoires",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1576871337622-98d48d1cf531?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "T-shirt basique homme 71",
+    "description": "T-shirt basique homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 86,
+    "category": "t-shirt",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Chemise casual homme 72",
+    "description": "Chemise casual homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 96,
+    "category": "chemise",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Pantalon chino homme 73",
+    "description": "Pantalon chino homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 54,
+    "category": "pantalon",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Jean slim homme 74",
+    "description": "Jean slim homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 108,
+    "discountPrice": 86,
+    "category": "jean",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [
+      "promotion"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Veste légère homme 75",
+    "description": "Veste légère homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 94,
+    "discountPrice": 75,
+    "category": "veste",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [
+      "promotion"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Manteau long homme 76",
+    "description": "Manteau long homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 146,
+    "discountPrice": 116,
+    "category": "manteau",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1539533113208-f6df8cc8b543?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [
+      "promotion"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Pull col rond homme 77",
+    "description": "Pull col rond homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 102,
+    "category": "pull",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Sweat à capuche homme 78",
+    "description": "Sweat à capuche homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 94,
+    "category": "sweat",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Baskets homme 79",
+    "description": "Baskets homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 117,
+    "category": "chaussures",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "42",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Ceinture cuir homme 80",
+    "description": "Ceinture cuir homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 89,
+    "discountPrice": 71,
+    "category": "accessoires",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1576871337622-98d48d1cf531?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [
+      "promotion"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "T-shirt basique homme 81",
+    "description": "T-shirt basique homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 43,
+    "category": "t-shirt",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Chemise casual homme 82",
+    "description": "Chemise casual homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 36,
+    "discountPrice": 28,
+    "category": "chemise",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [
+      "promotion"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Pantalon chino homme 83",
+    "description": "Pantalon chino homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 52,
+    "category": "pantalon",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Jean slim homme 84",
+    "description": "Jean slim homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 121,
+    "discountPrice": 96,
+    "category": "jean",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [
+      "promotion"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Veste légère homme 85",
+    "description": "Veste légère homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 46,
+    "category": "veste",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Manteau long homme 86",
+    "description": "Manteau long homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 83,
+    "category": "manteau",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1539533113208-f6df8cc8b543?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Pull col rond homme 87",
+    "description": "Pull col rond homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 129,
+    "discountPrice": 103,
+    "category": "pull",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [
+      "promotion"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Sweat à capuche homme 88",
+    "description": "Sweat à capuche homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 107,
+    "discountPrice": 85,
+    "category": "sweat",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [
+      "promotion"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Baskets homme 89",
+    "description": "Baskets homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 84,
+    "category": "chaussures",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "42",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Ceinture cuir homme 90",
+    "description": "Ceinture cuir homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 67,
+    "category": "accessoires",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1576871337622-98d48d1cf531?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "T-shirt basique homme 91",
+    "description": "T-shirt basique homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 40,
+    "category": "t-shirt",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Chemise casual homme 92",
+    "description": "Chemise casual homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 40,
+    "category": "chemise",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Pantalon chino homme 93",
+    "description": "Pantalon chino homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 93,
+    "category": "pantalon",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Jean slim homme 94",
+    "description": "Jean slim homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 37,
+    "category": "jean",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Veste légère homme 95",
+    "description": "Veste légère homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 145,
+    "category": "veste",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Manteau long homme 96",
+    "description": "Manteau long homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 87,
+    "category": "manteau",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1539533113208-f6df8cc8b543?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Pull col rond homme 97",
+    "description": "Pull col rond homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 140,
+    "discountPrice": 112,
+    "category": "pull",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [
+      "promotion"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Sweat à capuche homme 98",
+    "description": "Sweat à capuche homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 110,
+    "category": "sweat",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Baskets homme 99",
+    "description": "Baskets homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 31,
+    "category": "chaussures",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "42",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Ceinture cuir homme 100",
+    "description": "Ceinture cuir homme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 148,
+    "discountPrice": 118,
+    "category": "accessoires",
+    "gender": "homme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1576871337622-98d48d1cf531?w=500"
+    ],
+    "colors": [
+      "Noir",
+      "Blanc",
+      "Bleu"
+    ],
+    "tags": [
+      "promotion"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "T-shirt crop top femme 1",
+    "description": "T-shirt crop top femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 78,
+    "category": "t-shirt",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Chemisier fluide femme 2",
+    "description": "Chemisier fluide femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 76,
+    "category": "chemise",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Pantalon palazzo femme 3",
+    "description": "Pantalon palazzo femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 67,
+    "category": "pantalon",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1594633312681-8970d9f73d18?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Jean mom femme 4",
+    "description": "Jean mom femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 75,
+    "category": "jean",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1582552938357-32b424df40b3?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Blazer femme 5",
+    "description": "Blazer femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 71,
+    "category": "veste",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Trench coat femme 6",
+    "description": "Trench coat femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 48,
+    "category": "manteau",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1544022613-ab87f5f39e2d?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Pull fin femme 7",
+    "description": "Pull fin femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 138,
+    "category": "pull",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1584273143988-2635bc9f5b9d?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Sweat crop femme 8",
+    "description": "Sweat crop femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 102,
+    "category": "sweat",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1576566588028-4149f3842f27?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Baskets femme 9",
+    "description": "Baskets femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 136,
+    "discountPrice": 108,
+    "category": "chaussures",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "38",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1608231387042-66d3b2b5f8d1?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [
+      "promotion"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Sac à main femme 10",
+    "description": "Sac à main femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 119,
+    "discountPrice": 95,
+    "category": "accessoires",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1584917865443-de89df76afd3?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [
+      "promotion"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "T-shirt crop top femme 11",
+    "description": "T-shirt crop top femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 103,
+    "category": "t-shirt",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Chemisier fluide femme 12",
+    "description": "Chemisier fluide femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 147,
+    "category": "chemise",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Pantalon palazzo femme 13",
+    "description": "Pantalon palazzo femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 72,
+    "category": "pantalon",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1594633312681-8970d9f73d18?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Jean mom femme 14",
+    "description": "Jean mom femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 89,
+    "category": "jean",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1582552938357-32b424df40b3?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Blazer femme 15",
+    "description": "Blazer femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 133,
+    "category": "veste",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Trench coat femme 16",
+    "description": "Trench coat femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 91,
+    "category": "manteau",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1544022613-ab87f5f39e2d?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Pull fin femme 17",
+    "description": "Pull fin femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 116,
+    "category": "pull",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1584273143988-2635bc9f5b9d?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Sweat crop femme 18",
+    "description": "Sweat crop femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 92,
+    "discountPrice": 73,
+    "category": "sweat",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1576566588028-4149f3842f27?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [
+      "promotion"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Baskets femme 19",
+    "description": "Baskets femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 82,
+    "category": "chaussures",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "38",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1608231387042-66d3b2b5f8d1?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Sac à main femme 20",
+    "description": "Sac à main femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 138,
+    "category": "accessoires",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1584917865443-de89df76afd3?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "T-shirt crop top femme 21",
+    "description": "T-shirt crop top femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 56,
+    "category": "t-shirt",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Chemisier fluide femme 22",
+    "description": "Chemisier fluide femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 92,
+    "category": "chemise",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Pantalon palazzo femme 23",
+    "description": "Pantalon palazzo femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 126,
+    "category": "pantalon",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1594633312681-8970d9f73d18?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Jean mom femme 24",
+    "description": "Jean mom femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 69,
+    "discountPrice": 55,
+    "category": "jean",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1582552938357-32b424df40b3?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [
+      "promotion"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Blazer femme 25",
+    "description": "Blazer femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 50,
+    "category": "veste",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Trench coat femme 26",
+    "description": "Trench coat femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 119,
+    "category": "manteau",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1544022613-ab87f5f39e2d?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Pull fin femme 27",
+    "description": "Pull fin femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 84,
+    "discountPrice": 67,
+    "category": "pull",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1584273143988-2635bc9f5b9d?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [
+      "promotion"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Sweat crop femme 28",
+    "description": "Sweat crop femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 78,
+    "discountPrice": 62,
+    "category": "sweat",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1576566588028-4149f3842f27?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [
+      "promotion"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Baskets femme 29",
+    "description": "Baskets femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 148,
+    "category": "chaussures",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "38",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1608231387042-66d3b2b5f8d1?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Sac à main femme 30",
+    "description": "Sac à main femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 97,
+    "category": "accessoires",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1584917865443-de89df76afd3?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "T-shirt crop top femme 31",
+    "description": "T-shirt crop top femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 125,
+    "category": "t-shirt",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Chemisier fluide femme 32",
+    "description": "Chemisier fluide femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 31,
+    "discountPrice": 24,
+    "category": "chemise",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [
+      "promotion"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Pantalon palazzo femme 33",
+    "description": "Pantalon palazzo femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 123,
+    "discountPrice": 98,
+    "category": "pantalon",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1594633312681-8970d9f73d18?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [
+      "promotion"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Jean mom femme 34",
+    "description": "Jean mom femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 83,
+    "category": "jean",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1582552938357-32b424df40b3?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Blazer femme 35",
+    "description": "Blazer femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 106,
+    "category": "veste",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Trench coat femme 36",
+    "description": "Trench coat femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 39,
+    "discountPrice": 31,
+    "category": "manteau",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1544022613-ab87f5f39e2d?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [
+      "promotion"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Pull fin femme 37",
+    "description": "Pull fin femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 34,
+    "discountPrice": 27,
+    "category": "pull",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1584273143988-2635bc9f5b9d?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [
+      "promotion"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Sweat crop femme 38",
+    "description": "Sweat crop femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 117,
+    "discountPrice": 93,
+    "category": "sweat",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1576566588028-4149f3842f27?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [
+      "promotion"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Baskets femme 39",
+    "description": "Baskets femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 44,
+    "category": "chaussures",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "38",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1608231387042-66d3b2b5f8d1?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Sac à main femme 40",
+    "description": "Sac à main femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 95,
+    "category": "accessoires",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1584917865443-de89df76afd3?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "T-shirt crop top femme 41",
+    "description": "T-shirt crop top femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 115,
+    "category": "t-shirt",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Chemisier fluide femme 42",
+    "description": "Chemisier fluide femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 112,
+    "category": "chemise",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Pantalon palazzo femme 43",
+    "description": "Pantalon palazzo femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 88,
+    "category": "pantalon",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1594633312681-8970d9f73d18?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Jean mom femme 44",
+    "description": "Jean mom femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 103,
+    "category": "jean",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1582552938357-32b424df40b3?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Blazer femme 45",
+    "description": "Blazer femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 115,
+    "category": "veste",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Trench coat femme 46",
+    "description": "Trench coat femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 63,
+    "discountPrice": 50,
+    "category": "manteau",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1544022613-ab87f5f39e2d?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [
+      "promotion"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Pull fin femme 47",
+    "description": "Pull fin femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 94,
+    "category": "pull",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1584273143988-2635bc9f5b9d?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Sweat crop femme 48",
+    "description": "Sweat crop femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 74,
+    "category": "sweat",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1576566588028-4149f3842f27?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Baskets femme 49",
+    "description": "Baskets femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 111,
+    "category": "chaussures",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "38",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1608231387042-66d3b2b5f8d1?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Sac à main femme 50",
+    "description": "Sac à main femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 67,
+    "category": "accessoires",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1584917865443-de89df76afd3?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "T-shirt crop top femme 51",
+    "description": "T-shirt crop top femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 116,
+    "category": "t-shirt",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Chemisier fluide femme 52",
+    "description": "Chemisier fluide femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 51,
+    "category": "chemise",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Pantalon palazzo femme 53",
+    "description": "Pantalon palazzo femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 103,
+    "category": "pantalon",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1594633312681-8970d9f73d18?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Jean mom femme 54",
+    "description": "Jean mom femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 103,
+    "category": "jean",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1582552938357-32b424df40b3?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Blazer femme 55",
+    "description": "Blazer femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 44,
+    "category": "veste",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Trench coat femme 56",
+    "description": "Trench coat femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 77,
+    "category": "manteau",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1544022613-ab87f5f39e2d?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Pull fin femme 57",
+    "description": "Pull fin femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 126,
+    "category": "pull",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1584273143988-2635bc9f5b9d?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Sweat crop femme 58",
+    "description": "Sweat crop femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 58,
+    "category": "sweat",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1576566588028-4149f3842f27?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Baskets femme 59",
+    "description": "Baskets femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 111,
+    "discountPrice": 88,
+    "category": "chaussures",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "38",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1608231387042-66d3b2b5f8d1?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [
+      "promotion"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Sac à main femme 60",
+    "description": "Sac à main femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 116,
+    "category": "accessoires",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1584917865443-de89df76afd3?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "T-shirt crop top femme 61",
+    "description": "T-shirt crop top femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 123,
+    "discountPrice": 98,
+    "category": "t-shirt",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [
+      "promotion"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Chemisier fluide femme 62",
+    "description": "Chemisier fluide femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 119,
+    "category": "chemise",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Pantalon palazzo femme 63",
+    "description": "Pantalon palazzo femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 76,
+    "category": "pantalon",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1594633312681-8970d9f73d18?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Jean mom femme 64",
+    "description": "Jean mom femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 86,
+    "discountPrice": 68,
+    "category": "jean",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1582552938357-32b424df40b3?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [
+      "promotion"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Blazer femme 65",
+    "description": "Blazer femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 102,
+    "category": "veste",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Trench coat femme 66",
+    "description": "Trench coat femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 48,
+    "category": "manteau",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1544022613-ab87f5f39e2d?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Pull fin femme 67",
+    "description": "Pull fin femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 50,
+    "category": "pull",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1584273143988-2635bc9f5b9d?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Sweat crop femme 68",
+    "description": "Sweat crop femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 93,
+    "category": "sweat",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1576566588028-4149f3842f27?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Baskets femme 69",
+    "description": "Baskets femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 42,
+    "category": "chaussures",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "38",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1608231387042-66d3b2b5f8d1?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Sac à main femme 70",
+    "description": "Sac à main femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 129,
+    "discountPrice": 103,
+    "category": "accessoires",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1584917865443-de89df76afd3?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [
+      "promotion"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "T-shirt crop top femme 71",
+    "description": "T-shirt crop top femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 59,
+    "category": "t-shirt",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Chemisier fluide femme 72",
+    "description": "Chemisier fluide femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 82,
+    "discountPrice": 65,
+    "category": "chemise",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [
+      "promotion"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Pantalon palazzo femme 73",
+    "description": "Pantalon palazzo femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 41,
+    "discountPrice": 32,
+    "category": "pantalon",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1594633312681-8970d9f73d18?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [
+      "promotion"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Jean mom femme 74",
+    "description": "Jean mom femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 66,
+    "discountPrice": 52,
+    "category": "jean",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1582552938357-32b424df40b3?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [
+      "promotion"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Blazer femme 75",
+    "description": "Blazer femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 127,
+    "discountPrice": 101,
+    "category": "veste",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [
+      "promotion"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Trench coat femme 76",
+    "description": "Trench coat femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 33,
+    "category": "manteau",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1544022613-ab87f5f39e2d?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Pull fin femme 77",
+    "description": "Pull fin femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 51,
+    "category": "pull",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1584273143988-2635bc9f5b9d?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Sweat crop femme 78",
+    "description": "Sweat crop femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 30,
+    "category": "sweat",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1576566588028-4149f3842f27?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Baskets femme 79",
+    "description": "Baskets femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 135,
+    "category": "chaussures",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "38",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1608231387042-66d3b2b5f8d1?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Sac à main femme 80",
+    "description": "Sac à main femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 126,
+    "discountPrice": 100,
+    "category": "accessoires",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1584917865443-de89df76afd3?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [
+      "promotion"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "T-shirt crop top femme 81",
+    "description": "T-shirt crop top femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 45,
+    "discountPrice": 36,
+    "category": "t-shirt",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [
+      "promotion"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Chemisier fluide femme 82",
+    "description": "Chemisier fluide femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 105,
+    "category": "chemise",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Pantalon palazzo femme 83",
+    "description": "Pantalon palazzo femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 53,
+    "category": "pantalon",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1594633312681-8970d9f73d18?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Jean mom femme 84",
+    "description": "Jean mom femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 82,
+    "category": "jean",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1582552938357-32b424df40b3?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Blazer femme 85",
+    "description": "Blazer femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 126,
+    "category": "veste",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Trench coat femme 86",
+    "description": "Trench coat femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 45,
+    "category": "manteau",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1544022613-ab87f5f39e2d?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Pull fin femme 87",
+    "description": "Pull fin femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 92,
+    "category": "pull",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1584273143988-2635bc9f5b9d?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Sweat crop femme 88",
+    "description": "Sweat crop femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 65,
+    "category": "sweat",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1576566588028-4149f3842f27?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Baskets femme 89",
+    "description": "Baskets femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 104,
+    "category": "chaussures",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "38",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1608231387042-66d3b2b5f8d1?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Sac à main femme 90",
+    "description": "Sac à main femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 50,
+    "discountPrice": 40,
+    "category": "accessoires",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1584917865443-de89df76afd3?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [
+      "promotion"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "T-shirt crop top femme 91",
+    "description": "T-shirt crop top femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 70,
+    "category": "t-shirt",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Chemisier fluide femme 92",
+    "description": "Chemisier fluide femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 115,
+    "category": "chemise",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Pantalon palazzo femme 93",
+    "description": "Pantalon palazzo femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 51,
+    "category": "pantalon",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1594633312681-8970d9f73d18?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Jean mom femme 94",
+    "description": "Jean mom femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 135,
+    "category": "jean",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1582552938357-32b424df40b3?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Blazer femme 95",
+    "description": "Blazer femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 110,
+    "category": "veste",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Trench coat femme 96",
+    "description": "Trench coat femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 114,
+    "category": "manteau",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1544022613-ab87f5f39e2d?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Pull fin femme 97",
+    "description": "Pull fin femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 42,
+    "category": "pull",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1584273143988-2635bc9f5b9d?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Sweat crop femme 98",
+    "description": "Sweat crop femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 84,
+    "discountPrice": 67,
+    "category": "sweat",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1576566588028-4149f3842f27?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [
+      "promotion"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Baskets femme 99",
+    "description": "Baskets femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 118,
+    "category": "chaussures",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "38",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1608231387042-66d3b2b5f8d1?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [],
+    "isActive": true
+  },
+  {
+    "name": "Sac à main femme 100",
+    "description": "Sac à main femme de haute qualité. Coupe tendance et matière agréable.",
+    "price": 62,
+    "category": "accessoires",
+    "gender": "femme",
+    "sizes": [
+      {
+        "size": "M",
+        "stock": 15
+      },
+      {
+        "size": "L",
+        "stock": 10
+      }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1584917865443-de89df76afd3?w=500"
+    ],
+    "colors": [
+      "Rose",
+      "Blanc",
+      "Beige"
+    ],
+    "tags": [],
+    "isActive": true
+  }
+]

@@ -1,0 +1,7 @@
+.container { min-height: 70vh; display: flex; align-items: center; justify-content: center; text-align: center; padding: 2rem; }
+.content { max-width: 500px; }
+.code { font-size: 8rem; font-weight: 800; color: var(--electric-sapphire); line-height: 1; margin-bottom: 1rem; }
+.title { font-size: 2rem; color: var(--ink-black); margin-bottom: 1rem; }
+.message { color: #64748b; margin-bottom: 2rem; }
+.homeLink { display: inline-block; background: var(--electric-sapphire); color: white; padding: 0.8rem 2rem; border-radius: 2rem; font-weight: 600; text-decoration: none; transition: background 0.2s; }
+.homeLink:hover { background: #2a4fd0; }
