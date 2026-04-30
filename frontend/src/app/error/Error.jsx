@@ -8,8 +8,8 @@ export default function ErrorPage() {
       <div className={styles.content}>
         <h1 className={styles.code}>404</h1>
         <h2 className={styles.title}>Page introuvable</h2>
-        <p className={styles.message}>La page que vous recherchez n'existe pas ou a été déplacée.</p>
-        <Link href="/" className={styles.homeLink}>Retour à l'accueil</Link>
+        <p className={styles.message}>La page que vous recherchez n&apos;existe pas ou a été déplacée.</p>
+        <Link href="/" className={styles.homeLink}>Retour à l&apos;accueil</Link>
       </div>
     </div>
   );

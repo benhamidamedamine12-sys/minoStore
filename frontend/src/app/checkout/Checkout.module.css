@@ -57,6 +57,17 @@
 .submitBtn:hover {
   background: #2563eb;
 }
+.submitBtn:disabled {
+  opacity: 0.65;
+  cursor: not-allowed;
+}
+.error {
+  background: #fee2e2;
+  color: #991b1b;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  font-weight: 500;
+}
 .summary {
   background: #f8fafc;
   border-radius: 24px;

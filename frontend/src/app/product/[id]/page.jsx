@@ -2,9 +2,12 @@
 import { useEffect, useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { useParams } from 'next/navigation';
+import Image from 'next/image';
 import axios from 'axios';
 import { addToCart } from '@/redux/features/cart/cartSlice';
 import styles from './ProductDetail.module.css';
+
+const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5501';
 
 export default function ProductDetailPage() {
   const { id } = useParams();
@@ -19,7 +22,7 @@ export default function ProductDetailPage() {
     if (!id) return;
     const fetchProduct = async () => {
       try {
-        const res = await axios.get(`http://localhost:5501/api/products/${id}`);
+        const res = await axios.get(`${API_URL}/api/products/${id}`);
         setProduct(res.data.product);
         if (res.data.product.sizes?.length) {
           setSelectedSize(res.data.product.sizes[0].size);
@@ -68,7 +71,12 @@ export default function ProductDetailPage() {
         {/* Galerie */}
         <div className={styles.gallery}>
           <div className={styles.mainImage}>
-            <img src={product.images?.[activeImage] || '/placeholder.jpg'} alt={product.name} />
+            <Image
+              src={product.images?.[activeImage] || 'https://via.placeholder.com/600x800?text=MinoStore'}
+              alt={product.name}
+              fill
+              sizes="(max-width: 768px) 100vw, 50vw"
+            />
           </div>
           {product.images?.length > 1 && (
             <div className={styles.thumbnails}>
@@ -78,7 +86,12 @@ export default function ProductDetailPage() {
                   className={`${styles.thumbnail} ${idx === activeImage ? styles.activeThumb : ''}`}
                   onClick={() => setActiveImage(idx)}
                 >
-                  <img src={img} alt={`${product.name} vue ${idx + 1}`} />
+                  <Image
+                    src={img}
+                    alt={`${product.name} vue ${idx + 1}`}
+                    fill
+                    sizes="80px"
+                  />
                 </button>
               ))}
             </div>

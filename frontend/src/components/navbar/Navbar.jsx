@@ -1,10 +1,14 @@
 'use client';
 import { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { useSelector, useDispatch } from 'react-redux';
+import axios from 'axios';
 import { logout } from '@/redux/features/auth/authSlice';
 import { FiShoppingCart, FiMenu, FiX } from 'react-icons/fi';
 import styles from './Navbar.module.css';
+
+const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5501';
 
 export default function Navbar() {
   const { user, isAuthenticated } = useSelector((state) => state.auth);
@@ -28,7 +32,12 @@ export default function Navbar() {
     return '/assets/HommeProfileImageDefault.png';
   };
 
-  const handleLogout = () => {
+  const handleLogout = async () => {
+    try {
+      await axios.post(`${API_URL}/api/auth/logout`, {}, { withCredentials: true });
+    } catch (error) {
+      console.error('Erreur logout:', error);
+    }
     dispatch(logout());
     setShowUserMenu(false);
     setIsMobileMenuOpen(false);
@@ -101,7 +110,13 @@ export default function Navbar() {
                   onClick={() => setShowUserMenu(!showUserMenu)}
                   title="Menu utilisateur"
                 >
-                  <img src={getAvatarImage()} alt={user.name} className={styles.avatarImage} />
+                  <Image
+                    src={getAvatarImage()}
+                    alt={user.name}
+                    width={45}
+                    height={45}
+                    className={styles.avatarImage}
+                  />
                 </button>
 
                 {showUserMenu && (

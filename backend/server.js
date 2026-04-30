@@ -4,7 +4,6 @@ const session = require("express-session");
 const passport = require("passport");
 const cors = require("cors");
 const cookieParser = require("cookie-parser");
-const multer = require("multer");
 const path = require("path");
 const fs = require("fs");           
 const dns = require("dns");
@@ -15,6 +14,7 @@ const connectDB = require("./config/connectDB");
 const authRoutes = require("./routes/auth.route");
 const userRoutes = require("./routes/user.route");
 const productRoutes = require("./routes/product.route");
+const orderRoutes = require("./routes/order.route");
 
 // Configuration Passport
 require("./config/passport");
@@ -33,7 +33,7 @@ app.use(cors({
   credentials: true,
 }));
 app.use(express.json());
-app.use(express.static('uploads')); // ← Exposer le dossier uploads
+app.use("/uploads", express.static(uploadDir)); // Exposer le dossier uploads
 app.use(
   session({
     secret: process.env.SESSION_SECRET,
@@ -51,6 +51,7 @@ app.use(passport.session());
 app.use("/api/auth", authRoutes);
 app.use("/api/users", userRoutes);
 app.use("/api/products", productRoutes);
+app.use("/api/orders", orderRoutes);
 
 app.get("/", (req, res) => {
   res.send("API E-commerce Tunisien - Bienvenue 🚀");

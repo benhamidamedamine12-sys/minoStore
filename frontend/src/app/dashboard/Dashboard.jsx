@@ -5,8 +5,10 @@ import { useEffect, useState } from 'react';
 import axios from 'axios';
 import styles from './Dashboard.module.css';
 
+const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5501';
+
 export default function Dashboard() {
-  const { user, isAuthenticated, token } = useSelector((state) => state.auth);
+  const { user, isAuthenticated } = useSelector((state) => state.auth);
   const router = useRouter();
   const [stats, setStats] = useState({ users: 0, products: 0, orders: 0 });
   const [users, setUsers] = useState([]);
@@ -35,24 +37,25 @@ export default function Dashboard() {
     fetchStats();
     fetchUsers();
     fetchProducts();
-  }, [isAuthenticated, user]);
+  }, [isAuthenticated, user, router]);
 
   const fetchStats = async () => {
     try {
-      const [usersRes, productsRes] = await Promise.all([
-        axios.get('http://localhost:5501/api/users', {
-          headers: { Authorization: `Bearer ${token}` },
+      const [usersRes, productsRes, ordersRes] = await Promise.all([
+        axios.get(`${API_URL}/api/users`, {
           withCredentials: true,
         }),
-        axios.get('http://localhost:5501/api/products', {
-          headers: { Authorization: `Bearer ${token}` },
+        axios.get(`${API_URL}/api/products`, {
+          withCredentials: true,
+        }),
+        axios.get(`${API_URL}/api/orders`, {
           withCredentials: true,
         }),
       ]);
       setStats({
         users: usersRes.data.users?.length || 0,
         products: productsRes.data.total || 0,
-        orders: 0,
+        orders: ordersRes.data.orders?.length || 0,
       });
     } catch (error) {
       console.error('Erreur stats:', error);
@@ -61,8 +64,7 @@ export default function Dashboard() {
 
   const fetchUsers = async () => {
     try {
-      const res = await axios.get('http://localhost:5501/api/users', {
-        headers: { Authorization: `Bearer ${token}` },
+      const res = await axios.get(`${API_URL}/api/users`, {
         withCredentials: true,
       });
       setUsers(res.data.users || []);
@@ -73,8 +75,7 @@ export default function Dashboard() {
 
   const fetchProducts = async () => {
     try {
-      const res = await axios.get('http://localhost:5501/api/products', {
-        headers: { Authorization: `Bearer ${token}` },
+      const res = await axios.get(`${API_URL}/api/products`, {
         withCredentials: true,
       });
       setProducts(res.data.products || []);
@@ -90,8 +91,7 @@ const handleDeleteUser = async (userId, userRole) => {
   }
   if (!confirm('Supprimer cet utilisateur ?')) return;
   try {
-    await axios.delete(`http://localhost:5501/api/users/${userId}`, {
-      headers: { Authorization: `Bearer ${token}` },
+    await axios.delete(`${API_URL}/api/users/${userId}`, {
       withCredentials: true,
     });
     fetchUsers();
@@ -104,8 +104,7 @@ const handleDeleteUser = async (userId, userRole) => {
   const handleDeleteProduct = async (productId) => {
     if (!confirm('Supprimer ce produit ?')) return;
     try {
-      await axios.delete(`http://localhost:5501/api/products/${productId}`, {
-        headers: { Authorization: `Bearer ${token}` },
+      await axios.delete(`${API_URL}/api/products/${productId}`, {
         withCredentials: true,
       });
       fetchProducts();
@@ -183,8 +182,7 @@ const handleDeleteUser = async (userId, userRole) => {
         colors: productForm.colors.filter(c => c.trim() !== ''),
         tags: productForm.tags.filter(t => t.trim() !== '')
       };
-      await axios.post('http://localhost:5501/api/products', cleanForm, {
-        headers: { Authorization: `Bearer ${token}` },
+      await axios.post(`${API_URL}/api/products`, cleanForm, {
         withCredentials: true,
       });
       alert('Produit créé avec succès');
@@ -225,7 +223,7 @@ const handleDeleteUser = async (userId, userRole) => {
       </div>
 
       <div className={styles.tabs}>
-        <button className={`${styles.tab} ${activeTab === 'overview' ? styles.active : ''}`} onClick={() => setActiveTab('overview')}>Vue d'ensemble</button>
+        <button className={`${styles.tab} ${activeTab === 'overview' ? styles.active : ''}`} onClick={() => setActiveTab('overview')}>Vue d&apos;ensemble</button>
         <button className={`${styles.tab} ${activeTab === 'users' ? styles.active : ''}`} onClick={() => setActiveTab('users')}>Utilisateurs</button>
         <button className={`${styles.tab} ${activeTab === 'products' ? styles.active : ''}`} onClick={() => setActiveTab('products')}>Produits</button>
       </div>

@@ -3,21 +3,24 @@ import { useSelector, useDispatch } from 'react-redux';
 import { useState, useEffect, useRef } from 'react';
 import { logout, loginSuccess } from '@/redux/features/auth/authSlice';
 import { useRouter } from 'next/navigation';
+import Image from 'next/image';
 import axios from 'axios';
 import styles from './Profile.module.css';
 
+const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5501';
 const DEFAULT_AVATAR = '/assets/picture.png';
 
 export default function Profile() {
   const dispatch = useDispatch();
   const router = useRouter();
-  const { user, isAuthenticated, token } = useSelector((state) => state.auth);
+  const { user, isAuthenticated } = useSelector((state) => state.auth);
   const fileInputRef = useRef(null);
 
   const [activeTab, setActiveTab] = useState('info');
   const [isEditing, setIsEditing] = useState(false);
   const [loading, setLoading] = useState(false);
   const [addresses, setAddresses] = useState([]);
+  const [orders, setOrders] = useState([]);
   const [showAddressForm, setShowAddressForm] = useState(false);
   const [editingAddress, setEditingAddress] = useState(null);
   const [avatarPreview, setAvatarPreview] = useState(null);
@@ -59,10 +62,26 @@ export default function Profile() {
     }
   }, [isAuthenticated, activeTab]);
 
+  useEffect(() => {
+    if (!isAuthenticated || activeTab !== 'orders') return;
+
+    const fetchOrders = async () => {
+      try {
+        const response = await axios.get(`${API_URL}/api/orders/my`, {
+          withCredentials: true,
+        });
+        setOrders(response.data.orders || []);
+      } catch (error) {
+        console.error('Erreur chargement commandes:', error);
+      }
+    };
+
+    fetchOrders();
+  }, [isAuthenticated, activeTab]);
+
   const fetchAddresses = async () => {
     try {
-      const response = await axios.get('http://localhost:5501/api/users/addresses', {
-        headers: { Authorization: `Bearer ${token}` },
+      const response = await axios.get(`${API_URL}/api/users/addresses`, {
         withCredentials: true,
       });
       setAddresses(response.data.addresses || []);
@@ -110,21 +129,13 @@ const handleProfileUpdate = async (e) => {
       data.append('image', avatarFile);
     }
 
-    // Récupère le token depuis le state Redux (ou localStorage)
-    const currentToken = token || localStorage.getItem('token');
-
-    const response = await axios.put('http://localhost:5501/api/users/profile', data, {
-      headers: {
-        'Authorization': `Bearer ${currentToken}`,
-        // NE PAS METTRE 'Content-Type' ici
-      },
-      withCredentials: false, // ← désactive le cookie
+    const response = await axios.put(`${API_URL}/api/users/profile`, data, {
+      withCredentials: true,
     });
 
     if (response.data.user) {
       dispatch(loginSuccess({
         user: response.data.user,
-        token: currentToken,
       }));
     }
 
@@ -155,11 +166,10 @@ const handleProfileUpdate = async (e) => {
     }
 
     try {
-      await axios.put('http://localhost:5501/api/users/change-password', {
+      await axios.put(`${API_URL}/api/users/change-password`, {
         currentPassword: passwordForm.currentPassword,
         newPassword: passwordForm.newPassword,
       }, {
-        headers: { Authorization: `Bearer ${token}` },
         withCredentials: true,
       });
 
@@ -174,8 +184,7 @@ const handleProfileUpdate = async (e) => {
   const handleAddAddress = async (e) => {
     e.preventDefault();
     try {
-      await axios.post('http://localhost:5501/api/users/addresses', addressForm, {
-        headers: { Authorization: `Bearer ${token}` },
+      await axios.post(`${API_URL}/api/users/addresses`, addressForm, {
         withCredentials: true,
       });
       setAddressForm({ street: '', city: '', postalCode: '', governorate: '', country: 'Tunisie', isDefault: false });
@@ -191,8 +200,7 @@ const handleProfileUpdate = async (e) => {
   const handleUpdateAddress = async (e) => {
     e.preventDefault();
     try {
-      await axios.put(`http://localhost:5501/api/users/addresses/${editingAddress._id}`, addressForm, {
-        headers: { Authorization: `Bearer ${token}` },
+      await axios.put(`${API_URL}/api/users/addresses/${editingAddress._id}`, addressForm, {
         withCredentials: true,
       });
       setAddressForm({ street: '', city: '', postalCode: '', governorate: '', country: 'Tunisie', isDefault: false });
@@ -208,8 +216,7 @@ const handleProfileUpdate = async (e) => {
   const handleDeleteAddress = async (addressId) => {
     if (!confirm('Êtes-vous sûr de vouloir supprimer cette adresse ?')) return;
     try {
-      await axios.delete(`http://localhost:5501/api/users/addresses/${addressId}`, {
-        headers: { Authorization: `Bearer ${token}` },
+      await axios.delete(`${API_URL}/api/users/addresses/${addressId}`, {
         withCredentials: true,
       });
       setSuccessMessage('Adresse supprimée avec succès !');
@@ -223,11 +230,10 @@ const handleProfileUpdate = async (e) => {
   const handleSetDefault = async (addressId) => {
     try {
       const addressToUpdate = addresses.find(a => a._id === addressId);
-      await axios.put(`http://localhost:5501/api/users/addresses/${addressId}`, {
+      await axios.put(`${API_URL}/api/users/addresses/${addressId}`, {
         ...addressToUpdate,
         isDefault: true
       }, {
-        headers: { Authorization: `Bearer ${token}` },
         withCredentials: true,
       });
       setSuccessMessage('Adresse par défaut mise à jour !');
@@ -245,7 +251,7 @@ const handleProfileUpdate = async (e) => {
 
   const handleLogout = async () => {
     try {
-      await axios.post('http://localhost:5501/api/auth/logout', {}, { withCredentials: true });
+      await axios.post(`${API_URL}/api/auth/logout`, {}, { withCredentials: true });
     } catch (error) {
       console.error('Erreur logout:', error);
     }
@@ -271,7 +277,7 @@ const handleProfileUpdate = async (e) => {
         {/* SIDEBAR */}
         <div className={styles.sidebar}>
           <div className={styles.avatarWrapper}>
-            <img src={userAvatar} alt="Avatar" className={styles.avatar} />
+            <Image src={userAvatar} alt="Avatar" width={120} height={120} className={styles.avatar} />
             {isEditing && (
               <button className={styles.changeAvatarBtn} onClick={() => fileInputRef.current?.click()}>
                 📷 Modifier
@@ -478,7 +484,25 @@ const handleProfileUpdate = async (e) => {
             {activeTab === 'orders' && (
               <div className={styles.tabPane}>
                 <h3>Mes commandes</h3>
-                <p className={styles.emptyMessage}>Aucune commande pour le moment</p>
+                {orders.length === 0 ? (
+                  <p className={styles.emptyMessage}>Aucune commande pour le moment</p>
+                ) : (
+                  <div className={styles.ordersList}>
+                    {orders.map((order) => (
+                      <div key={order._id} className={styles.orderCard}>
+                        <div>
+                          <strong>Commande #{order._id.slice(-6).toUpperCase()}</strong>
+                          <p>{new Date(order.createdAt).toLocaleDateString('fr-FR')}</p>
+                        </div>
+                        <div>
+                          <span>{order.items.length} article(s)</span>
+                          <strong>{order.totalPrice.toFixed(2)} TND</strong>
+                        </div>
+                        <span className={styles.statusBadge}>{order.status}</span>
+                      </div>
+                    ))}
+                  </div>
+                )}
               </div>
             )}
           </div>

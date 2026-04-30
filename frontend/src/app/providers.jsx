@@ -5,7 +5,10 @@ import { Provider } from 'react-redux';
 import { store } from '@/redux/store'; 
 import { useEffect } from 'react';
 import { useDispatch } from 'react-redux';
+import axios from 'axios';
 import { loginSuccess } from '@/redux/features/auth/authSlice';
+
+const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5501';
 
 function AuthHydrator() {
   const dispatch = useDispatch();
@@ -14,14 +17,13 @@ function AuthHydrator() {
     // Vérifier l'authentification au chargement
     const checkAuth = async () => {
       try {
-        const res = await axios.get('/api/auth/me');
+        const res = await axios.get(`${API_URL}/api/auth/me`, {
+          withCredentials: true,
+        });
         
         if (res.data.user) {
-          // Récupérer le token depuis localStorage s'il existe
-          const token = localStorage.getItem('token');
           dispatch(loginSuccess({
             user: res.data.user,
-            token: token || res.data.user._id, // Utiliser un token vide si pas de token
           }));
         }
       } catch (error) {

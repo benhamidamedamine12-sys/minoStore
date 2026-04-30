@@ -7,6 +7,8 @@ import { useRouter, useSearchParams } from 'next/navigation';
 import Link from 'next/link';
 import styles from './Login.module.css';
 
+const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5501';
+
 const EmailIcon = () => <span>✉️</span>;
 const LockIcon = () => <span>🔒</span>;
 const EyeIcon = ({ visible, onClick }) => (
@@ -25,7 +27,9 @@ export default function LoginPage() {
   const router = useRouter();
   const searchParams = useSearchParams();
   const registered = searchParams.get('registered');
-  const redirectTo = searchParams.get('redirect') || '/profile';
+  const verified = searchParams.get('verified');
+  const redirectTo = searchParams.get('redirect') || '/';
+  const safeRedirectTo = redirectTo.startsWith('/') ? redirectTo : '/';
 
 
   const handleSubmit = async (e) => {
@@ -34,12 +38,12 @@ export default function LoginPage() {
     setError('');
     try {
       const response = await axios.post(
-        'http://localhost:5501/api/auth/login',
+        `${API_URL}/api/auth/login`,
         { email, password },
         { withCredentials: true }
       );
-      dispatch(loginSuccess({ user: response.data.user, token: response.data.token }));
-      router.push('/');
+      dispatch(loginSuccess({ user: response.data.user }));
+      router.push(safeRedirectTo);
     } catch (err) {
       setError(err.response?.data?.errors?.[0]?.msg || 'Email ou mot de passe incorrect');
     } finally {
@@ -60,6 +64,16 @@ export default function LoginPage() {
               <span>✅</span> Compte créé avec succès ! Connectez-vous.
             </div>
           )}
+          {verified === 'true' && (
+            <div className={styles.success}>
+              <span>OK</span> Email verifie avec succes.
+            </div>
+          )}
+          {verified === 'invalid' && (
+            <div className={styles.error}>
+              Lien de verification invalide ou expire.
+            </div>
+          )}
           <form onSubmit={handleSubmit} className={styles.form}>
             <div className={styles.inputGroup}>
               <span className={styles.inputIcon}><EmailIcon /></span>
@@ -76,7 +90,7 @@ export default function LoginPage() {
             </button>
           </form>
           <div className={styles.separator}><span>ou</span></div>
-          <button type="button" className={styles.googleBtn} onClick={() => window.location.href = 'http://localhost:5501/api/auth/google'}>
+          <button type="button" className={styles.googleBtn} onClick={() => window.location.href = `${API_URL}/api/auth/google`}>
             <svg width="20" height="20" viewBox="0 0 24 24" style={{ marginRight: '10px' }}>
               <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" />
               <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" />
@@ -87,7 +101,7 @@ export default function LoginPage() {
           </button>
           <div className={styles.footerLinks}>
             <Link href="/forgot-password" className={styles.forgotLink}>Mot de passe oublié ?</Link>
-            <p className={styles.registerLink}>Pas encore de compte ? <Link href="/register">S'inscrire</Link></p>
+            <p className={styles.registerLink}>Pas encore de compte ? <Link href="/register">S&apos;inscrire</Link></p>
           </div>
         </div>
       </div>

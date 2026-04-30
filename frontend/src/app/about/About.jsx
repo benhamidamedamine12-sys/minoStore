@@ -12,7 +12,7 @@ export default function About() {
       <div className={styles.content}>
         <div className={styles.section}>
           <h2>Notre histoire</h2>
-          <p>MinoStore est né d'une passion pour la mode et le style. Nous croyons que chaque personne mérite de se sentir bien dans ses vêtements, sans compromis sur la qualité ou le prix.</p>
+          <p>MinoStore est né d&apos;une passion pour la mode et le style. Nous croyons que chaque personne mérite de se sentir bien dans ses vêtements, sans compromis sur la qualité ou le prix.</p>
         </div>
 
         <div className={styles.section}>

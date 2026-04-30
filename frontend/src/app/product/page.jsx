@@ -1,5 +1,10 @@
+import { Suspense } from 'react';
 import ProductList from './Product';
 
 export default function ProductPage() {
-  return <ProductList />;
+  return (
+    <Suspense fallback={null}>
+      <ProductList />
+    </Suspense>
+  );
 }

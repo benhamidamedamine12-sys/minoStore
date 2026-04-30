@@ -53,7 +53,12 @@ export default function CartPage() {
           {items.map((item) => (
             <div key={`${item.id}-${item.size}`} className={styles.cartItem}>
               <div className={styles.itemImage}>
-                <img src={item.image} alt={item.name} />
+                <Image
+                  src={item.image || 'https://via.placeholder.com/160?text=MinoStore'}
+                  alt={item.name}
+                  fill
+                  sizes="80px"
+                />
               </div>
               <div className={styles.itemDetails}>
                 <h3>{item.name}</h3>

@@ -1,7 +1,11 @@
 const User = require("../models/User");
 const jwt = require("jsonwebtoken");
 const crypto = require("crypto");
-const { addressValidation } = require("../middlewares/validators");
+const sendEmail = require("../utils/sendEmail");
+
+const getFrontendUrl = () => process.env.FRONTEND_URL || "http://localhost:3000";
+const getBackendUrl = (req) =>
+  process.env.BACKEND_URL || `${req.protocol}://${req.get("host")}`;
 
 const generateToken = (id, role) => {
   return jwt.sign({ id, role }, process.env.JWT_SECRET, { expiresIn: "7d" });
@@ -61,6 +65,18 @@ exports.register = async (req, res) => {
   .digest("hex");
 
     await user.save();
+
+    const verificationUrl = `${getBackendUrl(req)}/api/auth/verify-email/${verificationToken}`;
+    await sendEmail({
+      to: user.email,
+      subject: "Verifier votre email MinoStore",
+      text: `Cliquez sur ce lien pour verifier votre email: ${verificationUrl}`,
+      html: `
+        <p>Bonjour ${user.name},</p>
+        <p>Merci de creer votre compte MinoStore.</p>
+        <p><a href="${verificationUrl}">Verifier mon email</a></p>
+      `,
+    });
 
     const token = generateToken(user._id, user.role);
 
@@ -218,12 +234,32 @@ exports.forgotPassword = async (req, res) => {
   try {
     const { email } = req.body;
     const user = await User.findOne({ email });
-    if (!user) return res.status(404).json({ errors: [{ msg: "Email non trouvé" }] });
+    if (!user) {
+      return res.json({
+        success: [{ msg: "Si cet email existe, un lien a ete envoye" }],
+      });
+    }
+
     const resetToken = user.generatePasswordResetToken();
     await user.save();
-    return res.json({ success: [{ msg: "Email de réinitialisation envoyé" }] });
+
+    const resetUrl = `${getFrontendUrl()}/reset-password/${resetToken}`;
+    await sendEmail({
+      to: user.email,
+      subject: "Reinitialisation de votre mot de passe MinoStore",
+      text: `Cliquez sur ce lien pour reinitialiser votre mot de passe: ${resetUrl}`,
+      html: `
+        <p>Bonjour ${user.name},</p>
+        <p>Vous avez demande une reinitialisation de mot de passe.</p>
+        <p><a href="${resetUrl}">Reinitialiser mon mot de passe</a></p>
+        <p>Ce lien expire dans 1 heure.</p>
+      `,
+    });
+
+    return res.json({ success: [{ msg: "Email de reinitialisation envoye" }] });
   } catch (error) {
-    return res.status(500).json({ errors: [{ msg: "Erreur" }] });
+    console.error("forgotPassword error:", error);
+    return res.status(500).json({ errors: [{ msg: "Impossible d'envoyer l'email" }] });
   }
 };
 
@@ -258,10 +294,18 @@ exports.verifyEmail = async (req, res) => {
     const { token } = req.params;
     const hashedToken = crypto.createHash("sha256").update(token).digest("hex");
     const user = await User.findOne({ emailVerificationToken: hashedToken });
-    if (!user) return res.status(400).json({ errors: [{ msg: "Token invalide" }] });
+    if (!user) {
+      if (req.accepts(["html", "json"]) === "html") {
+        return res.redirect(`${getFrontendUrl()}/login?verified=invalid`);
+      }
+      return res.status(400).json({ errors: [{ msg: "Token invalide" }] });
+    }
     user.emailVerified = true;
     user.emailVerificationToken = undefined;
     await user.save();
+    if (req.accepts(["html", "json"]) === "html") {
+      return res.redirect(`${getFrontendUrl()}/login?verified=true`);
+    }
     return res.json({ success: [{ msg: "Email vérifié" }] });
   } catch (error) {
     return res.status(500).json({ errors: [{ msg: "Erreur" }] });
@@ -281,9 +325,9 @@ exports.googleCallback = (req, res) => {
       sameSite: 'lax',
       maxAge: 7 * 24 * 60 * 60 * 1000,
     });
-    res.redirect(`http://localhost:3000/profile`);
+    res.redirect(`${getFrontendUrl()}/profile`);
   } catch (error) {
     console.error("Erreur googleCallback:", error);
-    res.redirect("http://localhost:3000/login?error=google_auth_failed");
+    res.redirect(`${getFrontendUrl()}/login?error=google_auth_failed`);
   }
 };

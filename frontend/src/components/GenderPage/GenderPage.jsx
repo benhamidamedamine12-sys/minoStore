@@ -3,8 +3,11 @@ import { useEffect, useState } from 'react';
 import { useDispatch } from 'react-redux';
 import axios from 'axios';
 import Link from 'next/link';
+import Image from 'next/image';
 import { addToCart } from '@/redux/features/cart/cartSlice';
 import styles from './GenderPage.module.css';
+
+const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5501';
 
 const CATEGORIES = [
   { value: '', label: 'Toutes catégories' },
@@ -36,7 +39,7 @@ export default function GenderPage({ gender }) {
         const params = new URLSearchParams();
         params.append('gender', gender);
         if (filters.category) params.append('category', filters.category);
-        const res = await axios.get(`http://localhost:5501/api/products?${params.toString()}`);
+        const res = await axios.get(`${API_URL}/api/products?${params.toString()}`);
         let data = res.data.products;
         if (sort === 'price-asc') data.sort((a, b) => a.price - b.price);
         if (sort === 'price-desc') data.sort((a, b) => b.price - a.price);
@@ -123,10 +126,12 @@ export default function GenderPage({ gender }) {
             <div key={product._id} className={styles.card}>
               <Link href={`/product/${product._id}`} className={styles.cardLink}>
                 <div className={styles.imageWrapper}>
-                  <img
+                  <Image
                     src={product.images?.[0] || 'https://via.placeholder.com/300x400?text=MinoStore'}
                     alt={product.name}
                     className={styles.image}
+                    fill
+                    sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 260px"
                   />
                   {product.discountPrice && (
                     <span className={styles.discountBadge}>

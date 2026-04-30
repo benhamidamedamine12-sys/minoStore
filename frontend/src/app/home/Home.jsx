@@ -1,6 +1,7 @@
 'use client';
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import axios from 'axios';
 import styles from './Home.module.css';
 import hommeImg from '@/assets/Images/Homme.jpg';
@@ -55,7 +56,7 @@ export default function HomePage() {
         <div className={styles.categories}>
           <Link href="/homme" className={styles.categoryCard}>
             <div className={styles.categoryImage}>
-              <img src={hommeImg.src} alt="Collection Homme" />
+              <Image src={hommeImg} alt="Collection Homme" fill sizes="(max-width: 768px) 100vw, 50vw" />
             </div>
             <div className={styles.categoryOverlay}>
               <h2>Homme</h2>
@@ -65,7 +66,7 @@ export default function HomePage() {
 
           <Link href="/femme" className={styles.categoryCard}>
             <div className={styles.categoryImage}>
-              <img src={femmeImg.src} alt="Collection Femme" />
+              <Image src={femmeImg} alt="Collection Femme" fill sizes="(max-width: 768px) 100vw, 50vw" />
             </div>
             <div className={styles.categoryOverlay}>
               <h2>Femme</h2>
@@ -80,14 +81,14 @@ export default function HomePage() {
       <h1>DECOUVRIR NOTRE COLLECTION</h1>
       <p>Découvrez nos dernières créations</p>
 <div className={styles.fullWidthBanner}>
-  <img src={promoMan.src} className={styles.bannerImg} />
+  <Image src={promoMan} alt="Nouvelle collection homme" fill sizes="100vw" className={styles.bannerImg} />
   <div className={styles.bannerTextLeft}>
     <h2>NOUVELLE COLLECTION</h2>
     <p>Style urbain, qualité supérieure</p>
   </div>
 </div>
 <div className={styles.fullWidthBanner}>
-  <img src={promoWoman.src} className={styles.bannerImg} />
+  <Image src={promoWoman} alt="Nouvelle collection femme" fill sizes="100vw" className={styles.bannerImg} />
   <div className={styles.bannerTextRight}>
     <h2>Élégance intemporelle</h2>
     <p>Les tendances de la saison</p>
@@ -111,9 +112,11 @@ export default function HomePage() {
                 featuredProducts.map((product) => (
                   <Link href={`/product/${product._id}`} key={product._id} className={styles.productCard}>
                     <div className={styles.productImage}>
-                      <img
+                      <Image
                         src={product.images?.[0] || 'https://via.placeholder.com/400x500?text=MinoStore'}
                         alt={product.name}
+                        fill
+                        sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 25vw"
                       />
                       {product.discountPrice && (
                         <span className={styles.discountBadge}>

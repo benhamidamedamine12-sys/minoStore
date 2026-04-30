@@ -1,11 +1,14 @@
 'use client';
-import { useEffect, useState } from 'react';
+import { useCallback, useEffect, useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { useSearchParams } from 'next/navigation';
+import Image from 'next/image';
 import axios from 'axios';
 import Link from 'next/link';
 import { addToCart } from '@/redux/features/cart/cartSlice';
 import styles from './Product.module.css';
+
+const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5501';
 
 const CATEGORIES = [
   { value: '', label: 'Toutes catégories' },
@@ -40,13 +43,13 @@ export default function ProductList() {
   const [quantities, setQuantities] = useState({});
   const [selectedSizes, setSelectedSizes] = useState({});
 
-  const fetchProducts = async () => {
+  const fetchProducts = useCallback(async () => {
     setLoading(true);
     try {
       const params = new URLSearchParams();
       if (filters.category) params.append('category', filters.category);
       if (filters.gender) params.append('gender', filters.gender);
-      const res = await axios.get(`http://localhost:5501/api/products?${params.toString()}`);
+      const res = await axios.get(`${API_URL}/api/products?${params.toString()}`);
       let data = res.data.products;
       if (sort === 'price-asc') data.sort((a, b) => a.price - b.price);
       if (sort === 'price-desc') data.sort((a, b) => b.price - a.price);
@@ -56,11 +59,11 @@ export default function ProductList() {
     } finally {
       setLoading(false);
     }
-  };
+  }, [filters, sort]);
 
   useEffect(() => {
     fetchProducts();
-  }, [filters, sort]);
+  }, [fetchProducts]);
 
   const handleQuantityChange = (productId, delta) => {
     setQuantities(prev => {
@@ -135,10 +138,12 @@ export default function ProductList() {
             <div key={product._id} className={styles.card}>
               <Link href={`/product/${product._id}`} className={styles.cardLink}>
                 <div className={styles.imageWrapper}>
-                  <img
+                  <Image
                     src={product.images?.[0] || 'https://via.placeholder.com/300x400?text=MinoStore'}
                     alt={product.name}
                     className={styles.image}
+                    fill
+                    sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 260px"
                   />
                   {product.discountPrice && (
                     <span className={styles.discountBadge}>
